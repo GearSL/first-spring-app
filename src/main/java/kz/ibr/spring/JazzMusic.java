@@ -1,8 +1,8 @@
 package kz.ibr.spring;
 
-public class RockMusic implements Music{
+public class JazzMusic implements Music{
     @Override
     public String getSong() {
-        return "Wind Cries";
+        return "Some Jazz Music";
     }
 }
